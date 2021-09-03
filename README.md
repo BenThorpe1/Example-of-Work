@@ -8,7 +8,7 @@ Tactical grid-base prototype in Unity;
 Shaders with OpenGL;
   Using OpenGL I created various shaders. I was giving a base framework that handled setting up OpenGL and I impemented a multi-pass rendereing system.*******
   
-Multiplayer Pong using C++ and Winsock API
+Multiplayer Pong using C++ and Winsock API*****
 
 Narrative Prototype;
 A small example of a bracnhing narrative text based adventure in University
