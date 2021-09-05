@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5543a6f2a0cb9b84ca586f96206bfcbe, type: 3}
+  m_Name: Ground
+  m_EditorClassIdentifier: 
+  tileName: 
+  description: Basic ground with no addition effects
+  cost: 1
+  material: {fileID: 2100000, guid: a9ec3465c1e18cd4a806d73236412377, type: 2}
+  tilePrefab: {fileID: 1628025221651378, guid: 85bff7066d8e78f4e98e48684b3c41c6, type: 2}

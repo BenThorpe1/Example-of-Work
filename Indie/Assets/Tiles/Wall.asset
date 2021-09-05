@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5543a6f2a0cb9b84ca586f96206bfcbe, type: 3}
+  m_Name: Wall
+  m_EditorClassIdentifier: 
+  tileName: 
+  description: Unbreakable wall, prevents passing
+  cost: 0
+  material: {fileID: 2100000, guid: 4532ed8bff8b65f439cf7145af3cd631, type: 2}
+  tilePrefab: {fileID: 1122901831763668, guid: 4b23a1282b91c3f4b8d917e255de6608, type: 2}
