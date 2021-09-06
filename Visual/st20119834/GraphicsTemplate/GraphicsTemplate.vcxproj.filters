@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{db133ab4-f79a-4503-9341-e3f14d9123df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{5fb809f5-8361-49b7-ba2d-c73f3062192d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\diffuse.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\diffuse.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\flat.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\flat.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Meshes\skybox.mtl">
+      <Filter>Materials</Filter>
+    </None>
+    <None Include="Meshes\torus.mtl">
+      <Filter>Materials</Filter>
+    </None>
+    <None Include="shaders\ToonShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\ToonShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Strips.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Strips.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\LighFalloff.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\LighFalloff.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Fog.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Fog.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\BlinnPhongIllumination.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\BlinnPhongIllumination.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\GrayScale.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\GrayScale.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\RedScale.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\RedScale.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\AntiAllis.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\AntiAllis.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\AntiAllis.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\BlinnPhongIllumination.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\diffuse.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\flat.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Fog.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\GrayScale.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\LighFalloff.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\RedScale.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Strips.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\ToonShader.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\face.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\GeomatryShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\GeomatryShader.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\GeomatryShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Halftone.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Halftone.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Halftone.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
